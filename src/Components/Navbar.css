@@ -1,0 +1,56 @@
+.nav-container{
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 300px;
+  position: relative;
+}
+
+form input {
+  width: 100%;
+  padding: 8px 35px 8px 12px; 
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+form input:focus {
+  border-color: #555;
+}
+form img {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icons button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+}
+/* .filter:hover{
+    border-bottom: 1px solid orangered;
+
+} */

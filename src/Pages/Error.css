@@ -1,0 +1,20 @@
+.error-page {
+    margin: 8rem 5rem;
+    text-align: center;
+}
+
+.error-page button {
+  padding: 10px 20px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 18px;
+}
+
+.error-page button:hover {
+  background-color:white;
+  color:  rgb(155, 65, 32);
+}

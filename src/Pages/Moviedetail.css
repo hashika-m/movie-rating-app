@@ -1,0 +1,103 @@
+.container{
+     /* width: 600px; */
+  padding: 20px;
+    /* background: cornflowerblue; */
+    margin: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+     display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+  /* align-items: center; */
+  cursor: pointer;
+}
+.movie-poster{
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+.movie-poster img{
+    height: 100%;
+}
+.detail{
+    padding: 5px;
+}
+.detail h1{
+    color: orangered;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.row1{
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: rgb(150, 142, 142);
+}
+.row2 p{
+        margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(205, 199, 199);
+    font-style: italic;
+    
+}
+.row2 b{
+    color: orangered;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+.plot{
+    padding: 5px;
+}
+.back-btn {
+  margin-top: 30px;
+  padding: 10px 24px;
+  background-color:orangered;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-btn:hover {
+  background-color:white;
+   color: rgb(189, 79, 39);
+}
+.rating , .user-rate{
+    color: rgb(207, 112, 78);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design */
+@media (max-width: 760px){
+    .grid{
+        flex-direction: column;
+    }
+   .detail{
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+}
+
