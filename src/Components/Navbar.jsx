@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* <img src={filter} alt="filter" style={{height:'25px',width:'25px'}}/> */}
           <Filter/>
          </button>
-        <Link to='/'><img src={home} alt="home" style={{height:'25px',width:'25px'}} className='home' active/> </Link>
+        <Link to='/'><img src={home} alt="home" style={{height:'25px',width:'25px'}} className='home' /> </Link>
         <img src={profile} alt='profile' style={{height:'25px',width:'25px'}} className='user'/>
      </div>
     
